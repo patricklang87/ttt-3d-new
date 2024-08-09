@@ -12,7 +12,7 @@ export function SocketProvider({ children }) {
 
     useEffect(() => {
         // const newSocket = io('http://localhost:4000');
-        const newSocket = io('https://ttt-3d-new-server.vercel.app/');
+        const newSocket = io('https://ttt-3d-new-server.vercel.app');
         setSocket(newSocket);
 
         return () => newSocket.close();
