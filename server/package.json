@@ -2,10 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "server for tictactoe 3d new",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
