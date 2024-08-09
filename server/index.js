@@ -4,7 +4,8 @@ const PORT = process.env.PORT || 4000;
 const path = require ('path');
 
 cors = require('cors');
-const acceptedOrigin = 'http://localhost:5173';
+// const acceptedOrigin = 'http://localhost:5173';
+ const acceptedOrigin = 'https://ttt-3d-new-client.vercel.app/';
 
 app.use(cors({
     origin: acceptedOrigin
