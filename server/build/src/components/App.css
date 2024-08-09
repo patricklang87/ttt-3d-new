@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+body {
+    font-family: 'Cutive Mono', monospace;
+    transition: color 3s;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body button,
+input[type=text] {
+    font-family: 'Cutive Mono', monospace;
+}
+
+body button {
+    font-size: 1.5em;
+    margin: 5px;
+    border-style: groove;
+    background-color: rgba(252, 252, 142, 0.699)
+}
+
+body button:hover {
+    background-color: rgba(252, 252, 142)
+} 
