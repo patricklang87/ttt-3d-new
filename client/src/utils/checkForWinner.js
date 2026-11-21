@@ -41,7 +41,7 @@ export const checkForWinner = (gameState) => {
         winner = gameState[1][x][1];
         return winner;
       }
-      if ((gameState[0][0][0] !== 0 && gameState[0][0][0] === gameState[1][1][1] && gameState[0][0][0] === gameState[2][2][2]) || (gameState[0][0][2] !== 0 && gameState[0][0][2] === gameState[1][1][1] && gameState[0][0][2] === gameState[2][2][0]) || (gameState[2][0][0] !== 0 && gameState[2][0][0] === gameState[1][1][1] && gameState[2][0][0] === gameState[0][2][2]) || (gameState[2][0][2] !== 0 && gameState[2][0][2] === gameState[1][1][1] && gameState[2][0][0] === gameState[0][2][0]) )  {
+      if ((gameState[0][0][0] !== 0 && gameState[0][0][0] === gameState[1][1][1] && gameState[0][0][0] === gameState[2][2][2]) || (gameState[0][0][2] !== 0 && gameState[0][0][2] === gameState[1][1][1] && gameState[0][0][2] === gameState[2][2][0]) || (gameState[2][0][0] !== 0 && gameState[2][0][0] === gameState[1][1][1] && gameState[2][0][0] === gameState[0][2][2]) || (gameState[2][0][2] !== 0 && gameState[2][0][2] === gameState[1][1][1] && gameState[2][0][2] === gameState[0][2][0]) )  {
         winner = gameState[1][1][1]
         return winner;
       }
